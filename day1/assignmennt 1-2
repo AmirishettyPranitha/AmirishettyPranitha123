@@ -1,0 +1,13 @@
+public class finalamount{
+
+     public static void main(String []args){
+     int price1= 70;
+     int price2= 20;
+     int price3= 10;
+     int tax=18;
+     int sum=price1+price2+price3;
+     int taxamount=sum*(tax)/100;
+     double finalamount=taxamount+(sum); 
+     System.out.println(finalamount);  
+     }
+}
