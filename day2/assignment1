@@ -1,0 +1,16 @@
+public class converter
+{
+    public static void main(String []args)
+    {
+        int feet=5;
+        int inch=10;
+        double h=feet*12*2.54;
+        double h1=inch*2.54;
+        double h2=h+h1;
+        int w=60;
+        double pound=2.2*w;
+        int po=(int)pound;
+        System.out.println(String.format("Height in cm %.2f",h2));
+        System.out.println("Weight in pounds "+po);
+    }
+}
